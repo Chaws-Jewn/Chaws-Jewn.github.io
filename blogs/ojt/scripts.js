@@ -1,3 +1,6 @@
+/* CALL INIT HERE*/
+init();
+
 function init() {
     const container = document.querySelector('#posts-container');
 
