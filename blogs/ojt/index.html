@@ -5,31 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A blog about my OJT experience.">
     <title>OJT Blog</title>
-    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
-        <h1>Welcome to My OJT Blog</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#posts">Posts</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto px-4">
+            <h1 class="text-3xl font-bold">Welcome to My OJT Blog</h1>
+            <nav class="mt-4">
+                <ul class="flex space-x-4 text-lg font-medium">
+                    <li><a href="#about" class="hover:text-blue-300">About</a></li>
+                    <li><a href="#posts" class="hover:text-blue-300">Posts</a></li>
+                    <li><a href="#contact" class="hover:text-blue-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section id="about">
-            <h2>About</h2>
-            <p>This blog shares my experiences and learnings during my On-the-Job Training (OJT).</p>
+    <main class="container mx-auto px-4 py-8">
+        <section id="about" class="mb-8">
+            <h2 class="text-2xl font-semibold mb-4">About</h2>
+            <p class="text-gray-700">This blog shares my experiences and learnings during my On-the-Job Training (OJT).</p>
         </section>
-        <section id="posts">
-            <h2>Blog Posts</h2>
-            <p>Stay tuned for updates!</p>
+        <section id="posts" class="mb-8">
+            <h2 class="text-2xl font-semibold mb-4">Blog Posts</h2>
+            <p class="text-gray-700">Stay tuned for updates!</p>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2023 Chaws Jewn. All rights reserved.</p>
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2023 Chaws Jewn. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
