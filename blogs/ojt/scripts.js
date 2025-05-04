@@ -6,6 +6,7 @@ function init() {
 
     entries.forEach(entry => {
         const post = document.createElement('div');
+        console.log("hi");
         post.classList.add('post');
         post.innerHTML = `
             <h2>${entry.title}</h2>
