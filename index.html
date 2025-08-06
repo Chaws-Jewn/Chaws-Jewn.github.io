@@ -1,12 +1,71 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <title>Chaws Github</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Portfolio</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Font Imports -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- User styles imports -->
+    <link rel="stylesheet" href="./styles/root.css" />
+    <link rel="stylesheet" href="./styles/fonts.css" />
+    <link rel="stylesheet" href="./styles/colors.css" />
+    <link rel="stylesheet" href="./styles/spacings.css" />
+    <link rel="stylesheet" href="./styles/behaviors.css" />
+    <link rel="stylesheet" href="./styles/components.css" />
   </head>
   <body>
-    <h1>Chaws Github Page</h1>
+    <div class="main-container mx-5">
+      <div class="header color-surface">
+        <div class="mf-3 hover-pointer ms-2" onclick="loadComponent('home')">
+          Charles John Malit
+        </div>
+        <div
+          class="sf-4 hover-pointer hover-color"
+          onclick="loadComponent('home')"
+        >
+          Home
+        </div>
+        <div
+          class="sf-4 hover-pointer hover-color"
+          onclick="loadComponent('about-me')"
+        >
+          About Me
+        </div>
+        <div
+          class="sf-4 hover-pointer hover-color"
+          onclick="loadComponent('projects')"
+        >
+          Projects
+        </div>
+        <div
+          class="sf-4 hover-pointer hover-color"
+          onclick="loadComponent('contact')"
+        >
+          Contact
+        </div>
+      </div>
 
-    <a href="https://chaws-jewn.github.io/blogs/">Go to Blogs</a>
+      <div id="main-placeholder"></div>
+
+      <div class="footer"></div>
+    </div>
+    <script src="./scripts.js" async defer></script>
   </body>
 </html>

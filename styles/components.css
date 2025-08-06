@@ -1,0 +1,13 @@
+/* header */
+.header {
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+  border-radius: 3rem;
+  padding: .5rem;
+}
+
+.header * {
+  display: flex;
+  align-items: center;
+  transition: 100ms;
+}

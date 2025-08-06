@@ -1,0 +1,41 @@
+.mf-1,
+.mf-2,
+.mf-3,
+.mf-4,
+.mf-5,
+.mf-6 {
+  font-family: var(--serif-font);
+}
+.mf-1 {
+  font-size: 3rem;
+}
+.mf-2 {
+  font-size: 2.5rem;
+}
+.mf-3 {
+  font-size: 2rem;
+}
+.mf-4 {
+  font-size: 1.5rem;
+}
+
+.sf-1,
+.sf-2,
+.sf-3,
+.sf-4,
+.sf-5,
+.sf-6 {
+  font-family: var(--sans-font);
+}
+.sf-1 {
+  font-size: 3rem;
+}
+.sf-2 {
+  font-size: 2.5rem;
+}
+.sf-3 {
+  font-size: 2rem;
+}
+.sf-4 {
+  font-size: 1.5rem;
+}

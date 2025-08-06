@@ -1,0 +1,21 @@
+/* Primary colors */
+.color-primary {
+  background-color: var(--primary);
+}
+.color-secondary {
+  background-color: var(--secondary);
+}
+.color-accent {
+  background-color: var(--accent);
+}
+.color-bg {
+  background-color: var(--background);
+}
+.color-surface {
+  background-color: var(--surface);
+}
+
+/* Font colors */
+.fcolor-text {
+  color: var(--primary);
+}

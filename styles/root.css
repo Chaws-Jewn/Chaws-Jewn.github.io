@@ -1,0 +1,17 @@
+:root {
+  --primary: #dfd0b8;
+  --secondary: #948979;
+  --accent: #00adb5;
+  --background: #222831;
+  --surface: #393e46;
+  --serif-font: "Alegreya", serif;
+  --sans-font: "Nunito", sans-serif;
+}
+
+/* Styles */
+body {
+  background-color: var(--background);
+  font-family: var(--sans-font);
+  font-size: 1rem;
+  color: var(--primary);
+}
