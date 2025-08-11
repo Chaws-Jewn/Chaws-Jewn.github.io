@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
   border-radius: 3rem;
+  margin-top: 1rem;
   padding: .5rem;
 }
 
@@ -10,4 +11,20 @@
   display: flex;
   align-items: center;
   transition: 100ms;
+}
+
+.h-20 {
+  height: 20rem;
+}
+
+.multi-logo-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  justify-items: center;
+}
+
+.multi-logo-container .logo {
+  width: 10rem;
+  height: 10rem;
 }

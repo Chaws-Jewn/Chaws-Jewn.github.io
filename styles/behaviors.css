@@ -1,7 +1,0 @@
-.hover-pointer:hover {
-  cursor: pointer;
-}
-
-.hover-color:hover {
-  color: var(--accent);
-}
