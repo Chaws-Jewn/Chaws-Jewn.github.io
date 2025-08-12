@@ -41,6 +41,6 @@
 }
 
 .highlight:hover {
-  color: white;
+  color: var(--accent);
   cursor: pointer;
 }

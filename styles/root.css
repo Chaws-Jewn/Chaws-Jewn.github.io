@@ -1,9 +1,9 @@
 :root {
-  --primary: #dfd0b8;
+  --primary: #e7f6f2;
   --secondary: #948979;
-  --accent: #00adb5;
-  --background: #222831;
-  --surface: #393e46;
+  --accent: #5b8fb9;
+  --background: #282a3a;
+  --surface: #03001c;
   --serif-font: "Alegreya", serif;
   --sans-font: "Nunito", sans-serif;
 }

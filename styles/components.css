@@ -1,16 +1,65 @@
-/* header */
 .header {
-  display: grid;
-  grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
-  border-radius: 3rem;
-  margin-top: 1rem;
-  padding: .5rem;
+  width: 100%;
+  padding: 0.5rem;
+  position: relative;
+  background-color: var(--surface);
+  z-index: 1000;
 }
 
-.header * {
+.header .main {
   display: flex;
-  align-items: center;
-  transition: 100ms;
+  justify-content: space-between;
+}
+
+@media (min-width: 769px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-links * {
+    margin: 0 1rem;
+  }
+
+  .menu-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .nav-links {
+    display: none;
+    grid-column: 1 / -1;
+    flex-direction: column;
+    padding: 0.5rem;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--surface);
+    z-index: 9999;
+  }
+
+  .menu-toggle {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .header.active .nav-links {
+    display: flex;
+    text-align: center;
+  }
+
+  .highlight {
+    margin: 0.5rem 0;
+  }
 }
 
 .h-20 {
@@ -18,13 +67,22 @@
 }
 
 .multi-logo-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-  justify-items: center;
+  display: flex;
+  flex-wrap: wrap; /* allow items to wrap on small screens */
+  gap: 5rem; /* space between items */
+  justify-content: center; /* center horizontally */
 }
 
 .multi-logo-container .logo {
-  width: 10rem;
-  height: 10rem;
+  max-width: 10rem; /* set a reasonable max width */
+  width: 100%; /* make images shrink if needed */
+  height: auto;
+  object-fit: contain; /* keep image proportions */
+}
+
+.image-placeholder {
+  text-align: center;
+  font-style: italic;
+  height: 25rem;
+  width: 50rem;
 }

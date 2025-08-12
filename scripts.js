@@ -8,6 +8,9 @@ function loadComponent(componentName) {
       console.error("Failed to load HTML:", err);
     });
 }
+function toggleMenu() {
+  document.querySelector(".header").classList.toggle("active");
+}
 
 /* INIT */
 loadComponent("home");
