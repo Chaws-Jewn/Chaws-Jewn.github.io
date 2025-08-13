@@ -169,3 +169,30 @@
 .link-btn i {
   font-size: 1.5rem;
 }
+
+.large-image-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.large-image-container img {
+  max-height: 80vh;
+  max-width: 100%;
+  margin: 0.5rem;
+}
+
+.project-selector {
+  background-color: var(--background);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  min-width: 50%;
+  border: none;
+  outline: none;
+  color: var(--font-color);
+  padding: 0.3rem 1rem;
+  font-weight: 600;
+  border-radius: 1rem;
+}
