@@ -28,6 +28,11 @@
       crossorigin="anonymous"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+
     <!-- User styles imports -->
     <link rel="stylesheet" href="./styles/root.css" />
     <link rel="stylesheet" href="./styles/fonts.css" />
@@ -40,7 +45,12 @@
         <div class="mf-3 main" onclick="loadComponent('home')">
           <div class="highlight">My Portfolio</div>
 
-          <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+          <div
+            class="menu-toggle"
+            onclick="event.stopPropagation(); toggleMenu();"
+          >
+            ☰
+          </div>
         </div>
 
         <div class="nav-links">
