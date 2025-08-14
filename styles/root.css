@@ -6,6 +6,8 @@
   --surface: #03001c;
   --serif-font: "Alegreya", serif;
   --sans-font: "Nunito", sans-serif;
+  --animation-duration: 0.7s;
+  --slide-distance: 50px;
 }
 
 /* Styles */

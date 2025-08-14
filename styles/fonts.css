@@ -7,19 +7,6 @@
   .mf-6 {
     font-family: var(--serif-font);
   }
-  .mf-1 {
-    font-size: 3rem;
-  }
-  .mf-2 {
-    font-size: 2.5rem;
-  }
-  .mf-3 {
-    font-size: 2rem;
-  }
-  .mf-4 {
-    font-size: 1.5rem;
-  }
-
   .sf-1,
   .sf-2,
   .sf-3,
@@ -28,74 +15,59 @@
   .sf-6 {
     font-family: var(--sans-font);
   }
+
+  .mf-1,
   .sf-1 {
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
+  .mf-2,
   .sf-2 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
+  .mf-3,
   .sf-3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
+  .mf-4,
   .sf-4 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }
 
-/* For tablets and below */
 @media (max-width: 768px) {
-  .mf-1 {
-    font-size: 2.2rem;
-  }
-  .mf-2 {
-    font-size: 2rem;
-  }
-  .mf-3 {
-    font-size: 1.8rem;
-  }
-  .mf-4 {
-    font-size: 1.4rem;
-  }
-
+  .mf-1,
   .sf-1 {
-    font-size: 2.2rem;
-  }
-  .sf-2 {
     font-size: 2rem;
   }
-  .sf-3 {
+  .mf-2,
+  .sf-2 {
     font-size: 1.8rem;
   }
+  .mf-3,
+  .sf-3 {
+    font-size: 1.6rem;
+  }
+  .mf-4,
   .sf-4 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 }
 
-/* For phones and below */
 @media (max-width: 480px) {
-  .mf-1 {
-    font-size: 1.8rem;
-  }
-  .mf-2 {
-    font-size: 1.6rem;
-  }
-  .mf-3 {
-    font-size: 1.4rem;
-  }
-  .mf-4 {
-    font-size: 1.2rem;
-  }
-
+  .mf-1,
   .sf-1 {
-    font-size: 1.8rem;
-  }
-  .sf-2 {
     font-size: 1.6rem;
   }
-  .sf-3 {
+  .mf-2,
+  .sf-2 {
     font-size: 1.4rem;
   }
-  .sf-4 {
+  .mf-3,
+  .sf-3 {
     font-size: 1.2rem;
+  }
+  .mf-4,
+  .sf-4 {
+    font-size: 1rem;
   }
 }
